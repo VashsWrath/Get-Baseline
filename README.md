@@ -1,3 +1,5 @@
+**All credit should be given to zulu8 for starting this project**
+
 # Get-Baseline
 
 Get-Baseline is a wrapper PowerShell script for a number of functions that automates the initial tasks in an incident response scenario. 
