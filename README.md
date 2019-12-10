@@ -85,16 +85,16 @@ On Collection System:
 ## Usage
 ### Execution
 ```PowerShell
-PS> Get-Baseline -Targets dc01,srv01,srv02,pc02win10 -url "http://10.0.0.128:8080/"
+PS> Get-Baseline -Targets dc01,srv01,srv02,pc02win10
 ```
 
 ```PowerShell
-PS> Get-Baseline -Targets $(get-content <IP_list_file.txt>) -url "http://10.0.0.128:8080/" -SkipSigcheck
+PS> Get-Baseline -Targets $(get-content <IP_list_file.txt>)
 ```
 
 ### Output
 ```PowerShell
-PS C:\Users\Administrator\20171212_Survey> Get-Baseline -Targets dc01,srv01,srv02,pc02win10 -url "http://10.0.0.128:8080/" -Verbose
+PS C:\Users\Administrator\20171212_Survey> Get-Baseline -Targets dc01,srv01,srv02,pc02win10 -Verbose
 Transcript started, output file is .\Log_20171212.txt
 
     Directory: C:\Users\Administrator\20171212_Survey
