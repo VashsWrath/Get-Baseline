@@ -26,10 +26,6 @@ Collects current netstat output - TimeGenerated, Protocol, LocalAddress, Foreign
 
 Download and execute autorunsc.exe with the following arguments: -accepteula -h -c -nobanner -a * -s
 
-#### `Invoke-Sigcheck`
-
-Verifies signature integrity on the system based on Matt Graeber's "Subverting Trust in Windows" then downloads and executes sigcheck.exe -accepteula -c -u -e -s -r -nobanner C:\Windows\System32 and C:\Windows\SysWOW64
-
 #### `Get-AuditOptions`
 
 Checks registry for additional auditing options - Process Creation Command Line, PowerShell Transcription, PowerShell Script Block Logging, PowerShell Module Logging, Windows Event Forwarding.
